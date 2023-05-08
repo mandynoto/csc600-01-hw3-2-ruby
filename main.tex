@@ -1,0 +1,23 @@
+\documentclass[11pt, listof=totoc]{article}
+
+% Set up header variables
+\newcommand{\asmt    } { Homework \#NUM - ASMT\_TITLE            } % TODO: Write assignment number and title
+\newcommand{\name    } { Mandy Noto                              }
+\newcommand{\prof    } { Dr. Jozo Dujmović                       }
+\newcommand{\duedate } { DD Month YYYY                           } % TODO: write due date
+\newcommand{\crsnum  } { CSc 600.01                              }
+
+\usepackage{csc600-hw}
+
+\begin{document}
+  % Make cover page
+  \thispagestyle{empty} \makeheading \tableofcontents \newpage \setcounter{page}{1}
+
+  % TODO: show problem solution/s
+
+  %% Make section bibliography
+  \newpage
+  \renewcommand{\refname}{\thesection. References} \addcontentssection{References}
+  \printbibliography
+  \stepcounter{section} \addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
+\end{document}
