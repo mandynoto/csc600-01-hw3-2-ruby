@@ -1,10 +1,10 @@
 \documentclass[11pt, listof=totoc]{article}
 
 % Set up header variables
-\newcommand{\asmt    } { Homework \#NUM - ASMT\_TITLE            } % TODO: Write assignment number and title
+\newcommand{\asmt    } { Homework 3.2 – Ruby                     }
 \newcommand{\name    } { Mandy Noto                              }
 \newcommand{\prof    } { Dr. Jozo Dujmović                       }
-\newcommand{\duedate } { DD Month YYYY                           } % TODO: write due date
+\newcommand{\duedate } { 19 May 2023                             }
 \newcommand{\crsnum  } { CSc 600.01                              }
 
 \usepackage{csc600-hw}
@@ -13,7 +13,10 @@
   % Make cover page
   \thispagestyle{empty} \makeheading \tableofcontents \newpage \setcounter{page}{1}
 
-  % TODO: show problem solution/s
+  \section{Iterator demo}       \input{src/1iteratordemo}
+  \newpage \section{Recognizer} \input{src/2recognizer}
+  \newpage \section{Triangle}   \input{src/3triangle}
+  \newpage \section{Sphere}     \input{src/4sphere}
 
   %% Make section bibliography
   \newpage
