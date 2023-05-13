@@ -305,3 +305,6 @@ TSWLatexianTemp*
 
 # main pdf
 /*.pdf
+
+# code examples
+code/eg
