@@ -12,5 +12,5 @@ print"\neach:\t\t"   ; abbreviations.each do |k,v| print"#{k}=#{v} " end
 print"\nmap:\t\t"    ; [1,2,3,4].map{|x|print "#{x}.is.even " if x.even?}
 print"\nstep:\t\t"   ; 0.step(10,2) do |x| print"*" end
 print"\ncollect:\t"  ; squares=[2,3,4].collect{|x|x*x}; print squares
-print"\nselect:\t"   ; divby9=[9,7,45,18,8].select{|x|x%9==0};print divby9
+print"\nselect:\t\t"   ; divby9=[9,7,45,18,8].select{|x|x%9==0};print divby9
 print"\nreject:\t"   ; notdivby9=[9,7,45,18,8].reject{|x|x%9==0};print notdivby9
