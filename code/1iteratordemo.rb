@@ -10,3 +10,4 @@ print"\ndownto:\t\t" ; 7.downto(4){|n|print n}
 print"\ntimes:\t\t"  ; 3.times{|n|print "thanks "}
 print"\neach:\t\t"   ; abbreviations.each do |k,v| print"#{k}=#{v} " end
 print"\nmap:\t\t"    ; [1,2,3,4].map{|x|print "#{x}.is.even " if x.even?}
+print"\nstep:\t\t"   ; 0.step(10,2) do |x| print"*" end
