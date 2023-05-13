@@ -8,3 +8,4 @@ print"\nfor:\t\t"    ; for name in names; print"#{name} " end
 print"\nupto:\t\t"   ; 4.upto(7){|n|print n}
 print"\ndownto:\t\t" ; 7.downto(4){|n|print n}
 print"\ntimes:\t\t"  ; 3.times{|n|print "thanks "}
+print"\neach:\t\t"   ; abbreviations.each do |k,v| print"#{k}=#{v} " end
