@@ -7,3 +7,4 @@ print"\nuntil:\t\t"  ; until i>3 ;print i ; i+=1 end# counts up to 3
 print"\nfor:\t\t"    ; for name in names; print"#{name} " end
 print"\nupto:\t\t"   ; 4.upto(7){|n|print n}
 print"\ndownto:\t\t" ; 7.downto(4){|n|print n}
+print"\ntimes:\t\t"  ; 3.times{|n|print "thanks "}
