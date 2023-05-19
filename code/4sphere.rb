@@ -10,12 +10,14 @@ class Sphere
 	end
 end
 class Ball < Sphere
-	def initialize(c)
+	def initialize(r,c)
+		super(r)
 		@color=c
 	end
 end
 class MyBall < Ball
-	def initialize(o)
+	def initialize(r,c,o)
+		super(r,c)
 		@owner=o
 	end
 	def show
