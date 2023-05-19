@@ -21,6 +21,6 @@ class MyBall < Ball
 		@owner=o
 	end
 	def show
-		puts "@owner=#{@owner}"
+		print "@radius=#{@radius}\n@color=#{@color}\n@owner=#{@owner}"
 	end
 end
