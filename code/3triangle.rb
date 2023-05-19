@@ -1,8 +1,6 @@
 class Triangle
 	def initialize(a,b,c) @a,@b,@c=a,b,c end # is the initializer.
-	def sidea; @a end
-	def sideb; @b end
-	def sidec; @c end
+	def sidea; @a end; def sideb; @b end; def sidec; @c end # are setters.
 
 	def test # returns the type of this triangle.
 		type=3 # (3) assumes this triangle is scalene, otherwise it classifies it as:
