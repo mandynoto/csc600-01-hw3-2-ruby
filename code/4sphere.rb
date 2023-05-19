@@ -26,5 +26,5 @@ class MyBall < Ball
 end
 
 mb=MyBall.new(5,"red","jon")
-mb.show
-print "area=#{mb.area}, volume=#{mb.volume}"
+mb.show; puts
+print "area=#{mb.area}\nvolume=#{mb.volume}"
