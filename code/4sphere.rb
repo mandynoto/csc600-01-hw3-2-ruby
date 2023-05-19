@@ -24,3 +24,7 @@ class MyBall < Ball
 		print "@radius=#{@radius}\n@color=#{@color}\n@owner=#{@owner}"
 	end
 end
+
+mb=MyBall.new(5,"red","jon")
+mb.show
+print "area=#{mb.area}, volume=#{mb.volume}"
