@@ -18,4 +18,7 @@ class MyBall < Ball
 	def initialize(o)
 		@owner=o
 	end
+	def show
+		puts "@owner=#{@owner}"
+	end
 end
