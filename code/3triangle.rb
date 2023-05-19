@@ -1,5 +1,5 @@
 class Triangle
-	def initialize(a,b,c) @a,@b,@c=a,b,c end
+	def initialize(a,b,c) @a,@b,@c=a,b,c end # is the initializer.
 	def sidea; @a end
 	def sideb; @b end
 	def sidec; @c end
