@@ -20,4 +20,9 @@ class Triangle
 		@a+@b+@c
 	end
 
+	def area; # returns calculated area of this triangle with heron's formula.
+		false if self.test==5; s=self.perimeter/2.to_f
+		Math.sqrt s*((s-@a)*(s-@b)*(s-@c))
+	end
+
 end
