@@ -15,4 +15,7 @@ class Ball < Sphere
 	end
 end
 class MyBall < Ball
+	def initialize(o)
+		@owner=o
+	end
 end
