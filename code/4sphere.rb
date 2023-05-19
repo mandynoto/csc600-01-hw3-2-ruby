@@ -10,4 +10,7 @@ class Sphere
 	end
 end
 class Ball < Sphere
+	def initialize(c)
+		@color=c
+	end
 end
