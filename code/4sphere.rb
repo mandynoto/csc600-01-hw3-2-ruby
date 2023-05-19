@@ -5,4 +5,7 @@ class Sphere
 	def area
 		4*(@radius**2)*Math::PI
 	end
+	def volume
+		(4*(@radius**3)*Math::PI)/3
+	end
 end
