@@ -14,3 +14,5 @@ class Ball < Sphere
 		@color=c
 	end
 end
+class MyBall < Ball
+end
