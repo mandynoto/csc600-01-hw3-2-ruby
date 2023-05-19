@@ -9,3 +9,5 @@ class Sphere
 		(4*(@radius**3)*Math::PI)/3
 	end
 end
+class Ball < Sphere
+end
