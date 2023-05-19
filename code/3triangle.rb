@@ -15,4 +15,9 @@ class Triangle
 		return type
 	end
 
+	def perimeter # returns the sum of all sides of this triangle.
+		false if self.test==5;
+		@a+@b+@c
+	end
+
 end
