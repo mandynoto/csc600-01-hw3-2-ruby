@@ -25,4 +25,5 @@ class Triangle
 		Math.sqrt s*((s-@a)*(s-@b)*(s-@c))
 	end
 
+	def pp; print"(#{@a},#{@b},#{@c})" end # prints all sides of this triangle.
 end
