@@ -26,3 +26,15 @@ class Triangle
 
 	def pp; print"(#{@a},#{@b},#{@c})" end # prints all sides of this triangle.
 end
+
+t1=Triangle.new(3,3,3); t2=Triangle.new(7,7,4); t3=Triangle.new(7,12,15)
+t4=Triangle.new(3,4,5); t5=Triangle.new(3,6,2)
+puts "#{t1.pp}\t  test=#{t1.test}"; puts "#{t2.pp}\t  test=#{t2.test}"
+puts "#{t3.pp} test=#{t3.test}"; puts "#{t4.pp}\t  test=#{t4.test}"
+puts "#{t5.pp}   test=#{t5.test}"
+puts "#{t1.pp} perimeter=#{t1.perimeter} area=#{t1.area}"
+puts "#{t2.pp} perimeter=#{t2.perimeter} area=#{t2.area}"
+print "#{t1.pp}=>"; t1.sidea=5; print"#{t1.pp}:"
+print "perimeter=#{t1.perimeter} area=#{t1.area}\n"
+print "#{t2.pp}=>"; t2.sideb=9; print"#{t2.pp}:"
+print "perimeter=#{t2.perimeter} area=#{t2.area}\n"
