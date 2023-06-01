@@ -304,7 +304,7 @@ TSWLatexianTemp*
 .DS_Store
 
 # main pdf
-/*.pdf
+# /*.pdf
 
 # code examples
 code/eg
