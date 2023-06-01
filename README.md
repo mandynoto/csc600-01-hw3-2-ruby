@@ -1,7 +1,7 @@
 # CSc 600.01 Homework 3.2 Ruby
 
 ## Final documentation
-[Click me for full documentation](MandyNoto-HW3-1-Ruby.pdf)
+[Click me for full documentation](pdf.gif)
 ![preview](img/pdf.gif)
 
 ## Running instructions
