@@ -1,8 +1,8 @@
 # CSc 600.01 Homework 3.2 Ruby
 
 ## Final documentation
-[Click me for full documentation](pdf.gif)
-![preview](img/pdf.gif)
+[Click me for full documentation](MandyNoto-HW3-1-Ruby.pdf)
+![preview](pdf.gif)
 
 ## Running instructions
 1. Install [LaTex](https://www.latex-project.org/get/)
