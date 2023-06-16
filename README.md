@@ -1,6 +1,7 @@
-# CSc 600.01 Homework 3.2 Ruby
+# Rubytex
+Submission for CSc 600.01 Homework 3.2 Ruby
 
-## Final documentation
+## Documentation
 ![preview](pdf.gif)
 [Click me for full documentation](MandyNoto-HW3-1-Ruby.pdf)
 
