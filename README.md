@@ -1,5 +1,5 @@
 # Rbtex
-Documentation for CSc 600.01 Homework 3.2 Ruby
+Documentation for CSc 600 Homework 3.2
 
 ## Documentation
 ![preview](pdf.gif)
